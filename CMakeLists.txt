@@ -10,6 +10,7 @@ project(home_robot_msgs)
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   sensor_msgs
+  std_msgs
   message_generation
 )
 
@@ -74,6 +75,7 @@ generate_messages(
   DEPENDENCIES
   geometry_msgs
   sensor_msgs
+  std_msgs
 )
 
 ################################################
