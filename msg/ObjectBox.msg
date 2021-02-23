@@ -1,5 +1,5 @@
 Header header
-sensor_msgs/CompressedImage source_img
+sensor_msgs/Image source_img
 string model
 float32 score
 string label

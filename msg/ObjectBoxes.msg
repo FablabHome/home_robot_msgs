@@ -1,2 +1,3 @@
 Header header
-home_robot_msgs/ObjectBox[] boxes
+ObjectBox[] boxes
+sensor_msgs/Image source_img
