@@ -55,12 +55,15 @@ add_message_files(
   CommandData.msg
   HumanPose.msg
   VisionRequest.msg
+  PFInfoData.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
   VisionDeregister.srv
+  ChangeImgSource.srv
+  PFInitializer.srv
 )
 
 ## Generate actions in the 'action' folder
