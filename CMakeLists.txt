@@ -55,6 +55,7 @@ add_message_files(
   CommandData.msg
   HumanPose.msg
   VisionRequest.msg
+  PFRobotData.msg
 )
 
 ## Generate services in the 'srv' folder
