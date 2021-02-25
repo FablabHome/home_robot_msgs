@@ -1,1 +1,1 @@
-float32[2] follow_point
+int32[2] follow_point
