@@ -1,3 +1,3 @@
 Header header
 ObjectBox[] boxes
-sensor_msgs/Image source_img
+sensor_msgs/CompressedImage source_img
