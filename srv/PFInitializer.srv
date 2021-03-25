@@ -1,4 +1,4 @@
-sensor_msgs/Image source_img
+sensor_msgs/CompressedImage source_img
 float32[] front_descriptor
 float32[] back_descriptor
 ---
