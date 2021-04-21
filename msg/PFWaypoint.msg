@@ -1,1 +1,1 @@
-int32[2] waypoint
+geometry_msgs/Vector3 waypoint
