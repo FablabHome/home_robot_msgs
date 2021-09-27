@@ -66,6 +66,7 @@ add_service_files(
   VisionDeregister.srv
   ChangeImgSource.srv
   PFInitializer.srv
+  ResetPF.srv
 )
 
 ## Generate actions in the 'action' folder
