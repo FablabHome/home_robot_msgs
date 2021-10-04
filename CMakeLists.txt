@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   sensor_msgs
   std_msgs
+  actionlib_msgs
   message_generation
 )
 
@@ -58,6 +59,7 @@ add_message_files(
   PFRobotData.msg
   PFWaypoint.msg
   PFWaypoints.msg
+  Blacklist.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -67,20 +69,21 @@ add_service_files(
   ChangeImgSource.srv
   PFInitializer.srv
   ResetPF.srv
+  StartFlow.srv
 )
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
-#   Action2.action
-# )
+add_action_files(
+  FILES
+  IntentManager.action
+)
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
   geometry_msgs
   sensor_msgs
+  actionlib_msgs
   std_msgs
 )
 
