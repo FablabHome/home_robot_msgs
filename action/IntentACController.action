@@ -1,0 +1,8 @@
+string intent
+string slots
+string raw_text
+string[] flowed_intents
+---
+bool success
+---
+string status
