@@ -1,5 +1,5 @@
 string text
 ---
-string status
----
 bool success
+---
+string status
