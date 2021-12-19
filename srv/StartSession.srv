@@ -1,0 +1,4 @@
+home_robot_msgs/VoiceSession session_data
+string[] next_intents
+---
+bool accepted

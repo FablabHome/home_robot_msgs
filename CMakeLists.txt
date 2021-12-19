@@ -60,6 +60,7 @@ add_message_files(
   PFWaypoint.msg
   PFWaypoints.msg
   Blacklist.msg
+  VoiceSession.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -69,7 +70,7 @@ add_service_files(
   ChangeImgSource.srv
   PFInitializer.srv
   ResetPF.srv
-  StartFlow.srv
+  StartSession.srv
 )
 
 ## Generate actions in the 'action' folder
