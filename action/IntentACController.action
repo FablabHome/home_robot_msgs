@@ -1,7 +1,7 @@
 string intent
 string slots
 string raw_text
-string[] flowed_intents
+home_robot_msgs/VoiceSession session
 ---
 bool success
 ---
