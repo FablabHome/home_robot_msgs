@@ -70,7 +70,8 @@ add_service_files(
   ChangeImgSource.srv
   PFInitializer.srv
   ResetPF.srv
-  StartSession.srv
+  Session.srv
+  SpeakerSrv.srv
 )
 
 ## Generate actions in the 'action' folder
