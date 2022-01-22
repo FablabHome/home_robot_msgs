@@ -72,6 +72,7 @@ add_service_files(
   ResetPF.srv
   Session.srv
   SpeakerSrv.srv
+  RecognizeFile.srv
 )
 
 ## Generate actions in the 'action' folder
