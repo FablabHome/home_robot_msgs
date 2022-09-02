@@ -1,5 +1,5 @@
 string text
 ---
-bool success
+bool on_session
 ---
 string status
