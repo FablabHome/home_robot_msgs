@@ -73,6 +73,7 @@ add_service_files(
   Session.srv
   SpeakerSrv.srv
   RecognizeFile.srv
+  ContinueSess.srv
 )
 
 ## Generate actions in the 'action' folder
