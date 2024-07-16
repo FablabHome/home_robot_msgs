@@ -1,6 +1,7 @@
 string intent
 string slots
 string raw_text
+string response
 home_robot_msgs/VoiceSession session
 ---
 bool success
